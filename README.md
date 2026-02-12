@@ -10,7 +10,7 @@
 
 Aplicativo mobile desenvolvido durante o curso **"Flutter: utilize animações da biblioteca Animations"** da [Alura](https://www.alura.com.br), como parte do **BootCamp Santander 2025** de desenvolvimento mobile.
 
-[Sobre](#-sobre-o-projeto) • [Animações](#-animações-implementadas) • [Funcionalidades](#-funcionalidades) • [Tecnologias](#%EF%B8%8F-tecnologias) • [Instalação](#-instalação) • [Estrutura](#-estrutura-do-projeto) • [Autor](#%EF%B8%8F-autor)
+[Sobre](#-sobre-o-projeto) • [Animações](#-animações-implementadas) • [Funcionalidades](#-funcionalidades) • [Tecnologias](#%EF%B8%8F-tecnologias) • [Instalação](#-instalação) • [Estrutura](#-estrutura-do-projeto) • [Autor](#autor)
 
 </div>
 
@@ -175,7 +175,7 @@ Este projeto proporcionou conhecimentos fundamentais sobre:
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 <div align="center">
 
