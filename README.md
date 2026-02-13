@@ -35,7 +35,7 @@ Este projeto foi desenvolvido para aprofundar conhecimentos em:
 O projeto explora cinco tipos principais de animações da biblioteca Animations:
 
 ### 🔄 OpenContainer
-Transições fluidas entre containers que expandem para revelar conteúdo completo, criando uma experiência de navegação contínua e intuitiva.
+Transições fluidas entre containers que expandem para revelar conteúdo completo, criando uma experiência de navegação contínua e intuitiva. Implementado na visualização de lista para abrir os detalhes de cada entrada com animação expansiva.
 
 ### ↔️ SharedAxis
 Animações de troca de conteúdo com movimento em eixos compartilhados, proporcionando transições suaves entre diferentes estados da interface. Implementado globalmente para transições de navegação entre páginas no Android e iOS.
@@ -47,7 +47,7 @@ Implementação de transições personalizadas entre páginas, permitindo contro
 Transição elegante com efeito de fade para alternância entre diferentes visualizações de conteúdo (lista e cards), proporcionando uma experiência visual suave e moderna.
 
 ### 🦸 Hero Widget
-Animações de elementos compartilhados entre telas, criando uma continuidade visual que guia o usuário através da navegação.
+Animações de elementos compartilhados entre telas, criando uma continuidade visual que guia o usuário através da navegação. As imagens das entradas animam suavemente da tela de resultados para a tela de detalhes.
 
 ---
 
@@ -59,6 +59,8 @@ Animações de elementos compartilhados entre telas, criando uma continuidade vi
 - 🗑️ **Gerenciamento de Dados**: Visualize e delete entradas salvas
 - 🎭 **Navegação Animada**: Transições suaves e intuitivas entre todas as telas com SharedAxis
 - 🔄 **Alternância de Visualização**: Troca animada entre visualização em cards e lista com FadeThroughTransition
+- 🖼️ **Transições de Imagem**: Hero animations nas imagens para continuidade visual entre telas
+- 📦 **OpenContainer nas Listas**: Transições expansivas ao abrir detalhes a partir da visualização em lista
 - 🌙 **Tema Dark**: Interface moderna em Material Design 3 com tema escuro
 
 ---
