@@ -1,3 +1,4 @@
+import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
 import 'package:hyrule/controllers/api_controller.dart';
 import 'package:hyrule/domain/models/entry.dart';
@@ -42,9 +43,13 @@ class _ResultsState extends State<Results> {
                 icon: const Icon(Icons.swap_horiz))
           ],
         ),
-        body: cardView
+        body: PageTransitionSwitcher(transitionBuilder: (child, primaryAnimation, secondaryAnimation) => FadeThroughTransition(animation: primaryAnimation, secondaryAnimation: secondaryAnimation, child: child), child:
+        cardView
             ? _CardList(entries: widget.entries)
             : _ListView(entries: widget.entries),
+        ),
+        
+        
       ),
     );
   }
