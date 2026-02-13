@@ -32,16 +32,19 @@ Este projeto foi desenvolvido para aprofundar conhecimentos em:
 
 ## 🎨 Animações Implementadas
 
-O projeto explora quatro tipos principais de animações da biblioteca Animations:
+O projeto explora cinco tipos principais de animações da biblioteca Animations:
 
 ### 🔄 OpenContainer
 Transições fluidas entre containers que expandem para revelar conteúdo completo, criando uma experiência de navegação contínua e intuitiva.
 
 ### ↔️ SharedAxis
-Animações de troca de conteúdo com movimento em eixos compartilhados, proporcionando transições suaves entre diferentes estados da interface.
+Animações de troca de conteúdo com movimento em eixos compartilhados, proporcionando transições suaves entre diferentes estados da interface. Implementado globalmente para transições de navegação entre páginas no Android e iOS.
 
 ### 📄 PageTransitionSwitcher
 Implementação de transições personalizadas entre páginas, permitindo controle total sobre como o conteúdo aparece e desaparece.
+
+### ✨ FadeThroughTransition
+Transição elegante com efeito de fade para alternância entre diferentes visualizações de conteúdo (lista e cards), proporcionando uma experiência visual suave e moderna.
 
 ### 🦸 Hero Widget
 Animações de elementos compartilhados entre telas, criando uma continuidade visual que guia o usuário através da navegação.
@@ -54,7 +57,8 @@ Animações de elementos compartilhados entre telas, criando uma continuidade vi
 - 💾 **Persistência Local**: Sistema de armazenamento local utilizando Floor (SQLite) para dados offline
 - ⭐ **Sistema de Favoritos**: Salve e gerencie suas entradas favoritas
 - 🗑️ **Gerenciamento de Dados**: Visualize e delete entradas salvas
-- 🎭 **Navegação Animada**: Transições suaves e intuitivas entre todas as telas
+- 🎭 **Navegação Animada**: Transições suaves e intuitivas entre todas as telas com SharedAxis
+- 🔄 **Alternância de Visualização**: Troca animada entre visualização em cards e lista com FadeThroughTransition
 - 🌙 **Tema Dark**: Interface moderna em Material Design 3 com tema escuro
 
 ---
